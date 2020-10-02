@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body{ /*TODO: This is where you adjust the background image for the website*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:url(img/backgroundPortifolioTrueCoders.png); /*TODO: Find your own background image and replace this --> url(img/your_image_goes_here)*/
+  color: white;
+}
+
+#download_button{ /*TODO: This is where you adjust the download button */
+  margin: 0px;
+  widows: 100px;
+  height: 40px;
+  
+
+  /*width: 
+  height:*/ 
+}
+
+#my-resume{  /*TODO: This is where you adjust the "My Resume" caption */
+  padding-left: 49px;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+  /* Try adding properties like width: 100px  and see how the chnages affect your HTML. CTRL + S is the key board-shortcut to save the document */
+}
+
+/* TODO: create a .box rule */
+
+.box{
+    background-color: rgb(78, 76, 76);
+    color: #fff; 
+    border-right: 5px grey solid;
+    border-left: 5px grey solid;
+    border-top: 5px grey solid;
+    border-bottom: 5px grey solid;
+    height: 50px;
+    border: 5px grey solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;   
+    margin-top: 20px;
+    margin-bottom:40px;
+
+}
+
+.container{
+    color:#2c2c2c;
+    padding:25px;
+}
+
+.container:hover{
+    background-color: #d8d5d5;
+    
+}
+
+/* TODO: Add these properties to the .box rule and play with the values to see how they will affect your HTML Document */
+
+    /*background-color: #333;
+    color: #fff; 
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;   
+    margin-top: 20px;*/
+    #download_button{ /*TODO: This is where you adjust the download button */
+        margin-left: 80px;
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 60px;
+        height: 50px;
+        /*width: 
+        height:*/ 
+      }
+
+.footer { /*TODO: This is where you adjust the footer*/
+  position: fixed;
+  left: 0;
+  bottom: 0;  
+  padding-bottom: 10px;
+  width: 100%;
+  height: 5%;
+  background-color: rgb(30, 29, 32, .75); /*TODO: This is where you adjust the footer's background color*/
+  color: white; /*TODO: This is where you adjust the footer text color*/
+  text-align: center;
+}
+.resume{
+    padding-bottom: 0px;
+}
+
+.my-photo{
+    border-radius: 50%;
+
+	margin-top: px;
+	display: table-cell;
+    float: left;
+    margin-left: 80px;
+}
+
+.AboutMeaside-right {
+    display: table-cell;
+    margin-top: 300 px;
+    width: 370px;
+    float: left;
+    align-content: center;
+    padding:20px;
+    
+
+}	
+
+.contact-me{
+    align-content: center;
+    margin-left: 50px;
+    padding:20px;
+    width: 2000px;
+}
+
